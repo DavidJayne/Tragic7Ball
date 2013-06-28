@@ -4,5 +4,6 @@
     <string name="app_name">Tragic 7 Ball</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="button_text">Ask Another</string>
 
 </resources>
