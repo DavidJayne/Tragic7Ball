@@ -10,8 +10,7 @@ import android.widget.TextView;
 import java.util.Random;
 
 
-public class DisplayMessageActivity extends Activity {
-
+public class DisplayMessageActivity extends Activity {	
 	private String[] msgs;
 	private TextView tv;
 	private Random rnd;
@@ -20,13 +19,13 @@ public class DisplayMessageActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Resources res = getResources();
-        msgs = res.getStringArray(R.array.messages);
         setContentView(R.layout.activity_display_message);
-        tv = (TextView)findViewById(R.id.messageTextView);
         
+        tv = (TextView)findViewById(R.id.messageTextView);
+        msgs = res.getStringArray(R.array.messages);
         rnd = new Random();        
         
-        changeText();
+        changeText();        
     }
     
     public void buttonClicked(final View view) {
