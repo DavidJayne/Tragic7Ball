@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="messages">
+        <item >Signs point to death</item>
+        <item >How should I know?</item>
+        <item >It doesn\'t matter. Nothing does.</item>
+        <item >Who cares? We are insignificant in the grand scheme of things.</item>
+    </string-array>
+    
+</resources>
